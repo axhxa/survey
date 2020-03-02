@@ -5,7 +5,47 @@
     android:orientation="vertical">
 
     <!--  Start : Your code should be within this block -->
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Question11"
+        android:layout_margin="10dp"
+        android:textSize="30dp"
+        />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What's your gender?"
+        android:textSize="20dp"
+        android:layout_margin="30dp"
+
+        />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Male"
+        android:layout_marginLeft="100dp"
+
+        />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Female)"
+        android:layout_marginLeft="100dp"
+        />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:onClick="onClickBtn"
+        android:text="NEXT"
+        android:layout_gravity="center"/>
 
     <!-- END    : Your code should be within this block -->
 

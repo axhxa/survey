@@ -5,7 +5,27 @@
     android:orientation="vertical">
 
     <!--  Start : Your code should be within this block -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Question6"
+        android:layout_margin="10dp"
+        android:textSize="30dp"
+        />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What functions do you expect your phone to have in the future?"
+        android:textSize="20dp"
+        android:layout_margin="20dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:onClick="onClickBtn"
+        android:layout_margin="10dp"/>
 
     <!-- END    : Your code should be within this block -->
 

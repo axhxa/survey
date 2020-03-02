@@ -6,7 +6,66 @@
 
     <!--  Start : Your code should be within this block -->
 
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Question10"
+        android:layout_margin="10dp"
+        android:textSize="30dp"
+        />
 
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="How old are you?"
+        android:textSize="20dp"
+        android:layout_margin="20dp"
+
+        />
+
+    <CheckBox
+        android:id="@+id/cbox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Under 18"
+        android:layout_marginLeft="100dp"
+
+        />
+
+    <CheckBox
+        android:id="@+id/cbox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="19-25"
+        android:layout_marginLeft="100dp"
+        />
+
+    <CheckBox
+        android:id="@+id/cbox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="25-35"
+        android:layout_marginLeft="100dp"
+        />
+
+    <CheckBox
+        android:id="@+id/cbox4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Beyond 35"
+        android:layout_marginLeft="100dp"
+        />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:onClick="onClickBtn"
+        android:text="NEXT"
+        android:layout_gravity="center"/>
     <!-- END    : Your code should be within this block -->
 
 </LinearLayout>

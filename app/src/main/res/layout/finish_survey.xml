@@ -5,7 +5,39 @@
     android:orientation="vertical">
 
     <!--  Start : Your code should be within this block -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="THANK YOU"
+        android:layout_margin="10dp"
+        android:textSize="30dp"
+        android:textColor="#000000"
+        />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FOR YOUR ANSWERS!"
+        android:textSize="20dp"
+        android:layout_margin="20dp"
+        android:textColor="#000000"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/yes"
+        android:layout_margin="50dp"
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:text="SHOW RESULT"
+        android:onClick="onClickBtn"
+        android:layout_gravity="center"/>
 
     <!-- END    : Your code should be within this block -->
 

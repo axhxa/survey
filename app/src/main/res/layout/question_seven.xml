@@ -5,7 +5,73 @@
     android:orientation="vertical">
 
     <!--  Start : Your code should be within this block -->
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Question7"
+        android:layout_margin="10dp"
+        android:textSize="30dp"
+        />
 
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="In which condition will you buy a new phone?"
+        android:textSize="20dp"
+        android:layout_margin="20dp"
+
+        />
+
+    <CheckBox
+        android:id="@+id/cbox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="When the old phone has been used for a year or two.(but it still works)"
+        android:layout_marginLeft="50dp"
+
+        />
+
+    <CheckBox
+        android:id="@+id/cbox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="When the old phone has been used for more than three years.(but it still works)"
+        android:layout_marginLeft="50dp"
+        />
+
+    <CheckBox
+        android:id="@+id/cbox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="When the old phone breaks down."
+        android:layout_marginLeft="50dp"
+        />
+
+    <CheckBox
+        android:id="@+id/cbox4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="When a new phone is released."
+        android:layout_marginLeft="50dp"
+        />
+
+    <CheckBox
+        android:id="@+id/cbox5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="others"
+        android:layout_marginLeft="50dp"
+        />
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:text="NEXT"
+        android:onClick="onClickBtn"
+        android:layout_gravity="center"/>
 
     <!-- END    : Your code should be within this block -->
 

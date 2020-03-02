@@ -5,7 +5,66 @@
     android:orientation="vertical">
 
     <!--  Start : Your code should be within this block -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Question12"
+        android:layout_margin="10dp"
+        android:textSize="30dp"
+        />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="How much does your phone cost?"
+        android:textSize="20dp"
+        android:layout_margin="20dp"
+
+        />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I haven't got a job."
+        android:layout_marginLeft="100dp"
+
+        />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="under 3000"
+        android:layout_marginLeft="100dp"
+        />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3000-5000"
+        android:layout_marginLeft="100dp"
+        />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5000-10000"
+        android:layout_marginLeft="100dp"
+        />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="More than 10000"
+        android:layout_marginLeft="100dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:text="NEXT"
+        android:onClick="onClickBtn"
+        android:layout_gravity="center"/>
 
     <!-- END    : Your code should be within this block -->
 

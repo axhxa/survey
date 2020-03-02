@@ -6,7 +6,62 @@
 
     <!--  Start : Your code should be within this block -->
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Question9"
+        android:layout_margin="10dp"
+        android:textSize="30dp"
+        />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What characteristic do you think is most important to evaluate a phone?"
+        android:textSize="20dp"
+        android:layout_margin="20dp"
+
+        />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apperance"
+        android:layout_marginLeft="100dp"
+
+        />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="price"
+        android:layout_marginLeft="100dp"
+        />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Performance"
+        android:layout_marginLeft="100dp"
+        />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Others"
+        android:layout_marginLeft="100dp"
+        />
+
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="50dp"
+        android:text="NEXT"
+        android:onClick="onClickBtn"
+        android:layout_gravity="center"/>
     <!-- END    : Your code should be within this block -->
 
 </LinearLayout>

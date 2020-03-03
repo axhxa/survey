@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.welcome);
-        c=findViewById(R.id.cbox);
+        c=findViewById(R.id.box);
     }
 
     public void onClickBtn(View view){

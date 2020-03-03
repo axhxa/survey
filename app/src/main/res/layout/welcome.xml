@@ -37,7 +37,7 @@
             android:layout_centerHorizontal="true"
             />
 
-    <TextView
+        <TextView
         android:id="@+id/text4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -47,7 +47,7 @@
         android:layout_marginLeft="30dp"
         />
         <CheckBox
-            android:id="@+id/cbox"
+            android:id="@+id/box"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="I accept these requests."
@@ -61,7 +61,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="LET'S START!"
-            android:layout_below="@id/cbox"
+            android:layout_below="@id/box"
             android:layout_margin="10dp"
             android:layout_centerHorizontal="true"
             android:onClick="onClickBtn"

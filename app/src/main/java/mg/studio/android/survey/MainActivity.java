@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void onClickBtn(View view){
         if(c.isChecked()) {
-            Intent intent = new Intent(this,question_one .class);
+            Intent intent = new Intent(this,Text.class);
             startActivity(intent);
         }
         else Toast.makeText(getApplicationContext(),"Need to agree the requests",Toast.LENGTH_LONG).show();

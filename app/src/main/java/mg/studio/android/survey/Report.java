@@ -18,11 +18,16 @@ import android.widget.CheckBox;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import org.json.JSONArray;
+import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.io.BufferedInputStream;
+import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
+import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 
@@ -58,6 +63,7 @@ public class Report extends AppCompatActivity {
             writer.name("report").value(result);
             writer.endObject();
             writer.close();
+            Toast.makeText(getApplicationContext(),"File is saved in:"+filePath,Toast.LENGTH_LONG).show();
             /*FileInputStream fileInputStream=openFileInput("report.json");
             JsonReader reader=new JsonReader(new InputStreamReader(fileInputStream));
             reader.beginObject();
@@ -79,15 +85,7 @@ public class Report extends AppCompatActivity {
             writer1.name("report").value(result);
             writer1.endObject();
             writer1.close();
-            /*FileInputStream fileInputStream1=new FileInputStream(filePath);
-            JsonReader reader1=new JsonReader(new InputStreamReader(fileInputStream1));
-            reader1.beginObject();
-            while(reader1.hasNext()) {
-                if(reader1.nextName().equals("report"))
-                    System.out.println(reader1.nextString());
-            }
-            reader1.endObject();
-            reader1.close();*/
+
         }
         catch (Exception e){
             e.printStackTrace();

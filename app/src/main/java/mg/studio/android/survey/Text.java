@@ -34,8 +34,6 @@ public class Text extends AppCompatActivity {
         setContentView(R.layout.layout);
         context = getApplicationContext();
         layout = findViewById(R.id.mainLayout);
-        /*AnalysisJson(context.getFilesDir().getPath()+"/survey.json");*/
-        /*AnalysisJson("file:///android_asset/survey.json");*/
         AnalysisJson("survey.json");
         bundle=new Bundle();
     }
@@ -91,7 +89,6 @@ public class Text extends AppCompatActivity {
                             @Override
                             public void onClick(View v) {
                                 report=report+"Answer."+button.getText().toString()+"\n";
-
                             }
                         });
                         radioGroup.addView(button);
@@ -116,7 +113,6 @@ public class Text extends AppCompatActivity {
                 }
             });
             layout.addView(next_button);
-
         } catch (JSONException e) {
             e.printStackTrace();
         }
